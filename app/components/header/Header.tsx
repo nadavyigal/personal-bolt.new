@@ -24,6 +24,12 @@ export function Header() {
           <span className="i-bolt:logo-text?mask w-[46px] inline-block" />
         </a>
       </div>
+      <a
+        href="/overview"
+        className="ml-4 text-sm text-bolt-elements-textPrimary hover:underline whitespace-nowrap"
+      >
+        Projects
+      </a>
       <span className="flex-1 px-4 truncate text-center text-bolt-elements-textPrimary">
         <ClientOnly>{() => <ChatDescription />}</ClientOnly>
       </span>
